@@ -1,0 +1,257 @@
+
+*{
+  margin: 0px;
+  font-family:Arial, Helvetica, sans-serif ;
+  border:border-box;
+  padding: 0px;
+  
+ }
+
+
+ /* 11th div for second section of first page  */
+ .Shop-sec{
+           width:100%;
+           height:500px;  
+          display:flex;
+          flex-direction:column;
+           flex-wrap:wrap;
+          align-items:center;
+           background-color: #250d8dfd;
+           padding-left: 5px;
+                    justify-content: center;
+         
+          
+         } 
+         
+         .main-box{
+            background-color:#250d8dfd;
+            display: flex;
+            flex-direction:row;
+        justify-content:space-around;
+        height: 500px;
+
+         }
+  /* div for box 1content & images */
+  .box1{
+    height:420px;
+     width:30%;
+     background-color:#FFFFFF;;
+     display:flex;
+       flex-wrap: wrap;
+       flex-direction:row;
+     justify-content: center;
+     gap:12px;
+     align-items: center;
+ } 
+
+
+  .box1-content{
+      font-size:20px;
+     color: #0F1111;
+     font-family:Arial, Helvetica, sans-serif ;
+     width:300px;
+ }
+ .box1 p{
+     font-size:18px;
+ } 
+
+     #details{
+     color :#007185;
+     font-size:18px;
+     font-family: Arial, Helvetica, sans-serif;
+     margin-right:240px;
+      width:210px;
+
+    
+ } 
+ /* div for box2 content and image */
+ .box2{
+    height:420px;
+    width:30%;
+    background-color:#FFFFFF;
+    display:flex;
+      flex-wrap: wrap;
+      flex-direction:row;
+    justify-content: center;
+    gap:12px;
+    align-items: center;
+} 
+ .box2-content{
+    font-size:16px;
+     color: #0F1111;
+     font-family:Arial, Helvetica, sans-serif ;
+     width:300px;
+    
+ }
+ .box2 p{
+     font-size:18px;
+ }
+ #details2{
+    color :#007185;
+     font-size:18px;
+     font-family: Arial, Helvetica, sans-serif;
+      margin-right:240px;
+      width:210px;
+     
+ }
+ /* div for box3 content and image */
+ .box3{
+    height:420px;
+    width:30%;
+    background-color:#FFFFFF;
+    display:flex;
+      flex-wrap: wrap;
+      flex-direction:row;
+    justify-content: center;
+     gap:12px;
+    align-items: center;
+
+ }
+ .box3-content{
+    font-size: 20px;
+    color: #0F1111;
+    font-family:Arial, Helvetica, sans-serif ;
+    width:300px;
+ }
+ #details3{
+    color :#007185;
+     font-size:18px;
+     font-family: Arial, Helvetica, sans-serif;
+      margin-right:240px;
+      width:210px;
+      }
+   .box3 p{
+     font-size:18px;   
+ }
+ /* div for shopware */
+ .shopware{
+     width:100%;
+     height:500px;
+     background-color:#cccccc;
+     display:flex;
+     flex-wrap: wrap;
+     flex-direction: column;
+     align-items: center;
+    justify-content:space-around;
+    /* margin-top: 50px; */
+
+     }
+ 
+ /* div for box3 content and image */
+ .box4{
+    height:420px;
+    width:30%;
+    background-color:#FFFFFF;
+    display:flex;
+      flex-wrap: wrap;
+      flex-direction:row;
+    justify-content: center;
+    align-items: center;
+
+ 
+ }
+ .box4-content{
+    
+     color:#0F1111;
+     font-family:Arial, Helvetica, sans-serif ;
+     width:266px;
+     margin-top:5px;
+ }
+ 
+ #details4{
+     color :#007185;
+     font-size:18px;
+     font-family: Arial, Helvetica, sans-serif;
+     margin-right:240px;
+     width: 210px;
+ }
+ /* div for box5 content and image */
+ .box5{
+    height:420px;
+    width:30%;
+    background-color:#FFFFFF;
+    display:flex;
+      flex-wrap: wrap;
+      flex-direction:row;
+    justify-content: center;
+    align-items: center;
+
+ 
+ }
+ .box5-content{
+    
+     color:#0F1111;
+     font-family:Arial, Helvetica, sans-serif ;
+     width:266px;
+     margin-top:5px;
+ }
+ 
+ #details5{
+     color :#007185;
+     font-size:18px;
+     font-family: Arial, Helvetica, sans-serif;
+     margin-right:240px;
+     width: 210px;
+ }
+
+ /* div for box6 content and image */
+ .box6{
+    height:420px;
+    width:30%;
+    background-color:#FFFFFF;
+    display:flex;
+      flex-wrap: wrap;
+      flex-direction:row;
+    justify-content: center;
+    align-items: center;
+
+ 
+ }
+ .box6-content{
+    
+     color:#0F1111;
+     font-family:Arial, Helvetica, sans-serif ;
+     width:266px;
+     margin-top:5px;
+ }
+ 
+ #details6{
+     color :#007185;
+     font-size:18px;
+     font-family: Arial, Helvetica, sans-serif;
+     margin-right:240px;
+     width: 210px;
+ }
+
+
+    .kitchen-dining{
+     width:100%;
+    height:300px;
+    background-color:#FFFFFF;
+    margin-top:50px;
+ 
+ }
+    .Box7{
+        color:#0F1111;
+        font-family:Arial, Helvetica, sans-serif ;
+        width:600px;
+        font-size:24px;
+        margin-top:80px;
+        padding: 15px;
+
+    }
+  
+      .box7-content{
+     font-family:Arial, Helvetica, sans-serif ;
+     margin-top:90px;
+     display:flex;
+        flex-direction:row;
+         flex-wrap: wrap;
+         align-items:center;
+         justify-content: space-evenly;
+        
+        
+ }
+
+
+ 

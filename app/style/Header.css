@@ -1,0 +1,116 @@
+ /* first main div to create afullnavbar on top  */
+ .navbar{
+    height:80px;
+    width:100%;
+    background-color:#0F1111;
+      color:white;  
+      display: flex; 
+     align-items:center; 
+     justify-content: space-evenly; 
+}
+.nav-logo{
+    height:15px;
+    width:160px; 
+    margin-right: 20px;
+    padding-bottom: 60px;
+    background-color:#bec0c2;
+}
+
+.border{
+    border: 1px solid transparent;
+}
+.border:hover{
+    border: 2px solid white;
+}
+/*  2nd main div selecting country  */
+.add-first{ 
+color:#cccccc;
+font-size:22px;
+margin-left:5px;
+}
+.add-sec{
+color:#FFFFFF;
+font-size:18px;
+}
+ .add-icon{
+    display:flex;
+    font-size:25px;
+} 
+/* third main div searching in amz*/
+.nav-search{
+    display:flex;
+    background-color: pink;
+    width:600px;
+    height:44px;
+    border-radius: 5px;
+    justify-content: space-evenly;
+}
+.search-select{
+    background-color: #F3F3F3;
+    width:50px;
+    text-align: center;
+    border-top-left-radius:5px ;
+    border-bottom-left-radius:5px;
+    border:none;
+    font-size: 20px;
+}
+.nav-search:hover{
+    border: 2px solid #febd68;
+}
+.search-input{
+    width: 100%;
+    font-size: 15px;
+    border:none;
+    background-color:white;
+}
+ .search-icon{ 
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    font-size: 1.2rem;
+    background-color: #febd68;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius:4px ;
+ } 
+/* - 4th div with span for siging in  */
+span{
+    font-size:14px;
+}
+.nav-acc{
+    font-size:16pxrem;
+    font-weight: 700;
+}
+ /* 6th   div for cart */
+.nav-cart {
+    font-size:24px;
+}
+.nav-cart border{
+font-size:24px;   
+font-weight:700;
+
+}
+ /* 7th div for panel  */
+    .panel{
+        background-color: #222f3d;
+        height: 40px;
+        display: flex;
+        color:white;
+        justify-content:space-evenly ;
+        align-items: center;    
+    }
+    /* 8th div for panel-options */
+    .panel-options p {
+        display: inline;
+        margin: 15px; 
+    }
+.panel-options{
+     width: 70%; 
+     font-size: 14px;
+     font-family: Arial, Helvetica, sans-serif;
+}
+/* 9th div for panel-deals */
+.panel-deals{
+    font-size: 15px;
+    font-weight: 500;
+} 

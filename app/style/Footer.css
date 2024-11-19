@@ -1,5 +1,6 @@
 /* main footer div */
-footer{
+ .footer{
+    position: relative;
     background-color: #222f3d;
     width: 100%;
    height:400px;
@@ -7,11 +8,13 @@ footer{
    display: flex;
    flex-wrap: wrap;
    justify-content: center;
+   margin-top:300px;
 }
 .ft-heading1{
+    position: absolute;
     color: #FFFFFF;
-    font-family: 'Times New Roman', Times, serif;
-    font-size:large;
+    font-family:'Times New Roman', Times, serif;
+    font-size:x-large;
     padding-top: 50px;
     padding-left: 40px;
     margin-left:50px;
@@ -19,15 +22,20 @@ footer{
 .footer-getTo{
     color: #FFFFFF;
     font-family: 'Times New Roman', Times, serif;
-    font-size:small;
+    font-size:20px;
     padding-top: 30px;
     padding-left: 10px;
-    margin-left:10px
+    margin-left:10px;
+    
+}
+.footer-getTo li{
+    margin-bottom: 10px;
+    list-style: none;
 }
 .ft-heading2{
     color: #FFFFFF;
     font-family: 'Times New Roman', Times, serif;
-    font-size:large;
+    font-size:x-large;
     padding-top: 50px;
     padding-left: 10px;
     margin-left:50px
@@ -35,15 +43,20 @@ footer{
 .footer-makeMoney{
     color: #FFFFFF;
     font-family: 'Times New Roman', Times, serif;
-    font-size:small;
-    padding-top: 30px;
+    font-size:20px;
+    padding-top:30px;
     padding-left: 10px;
-    margin-left:10px
+    margin-left:10px;
+    text-decoration: none;
+}
+.footer-makeMoney li{
+    list-style: none;
+    margin-bottom: 10px;
 }
 .ft-heading3{
     color: #FFFFFF;
     font-family: 'Times New Roman', Times, serif;
-    font-size:large;
+    font-size:x-large;
     padding-top: 50px;
     padding-left: 10px;
     margin-left:50px
@@ -51,16 +64,20 @@ footer{
 .footer-Payment{
     color: #FFFFFF;
     font-family: 'Times New Roman', Times, serif;
-    font-size:small;
+    font-size:20px;
     padding-top: 30px;
     padding-left: 10px;
     margin-left:20px;
     margin-left:10px
 }
+.footer-Payment li{
+    margin-bottom: 10px;
+    list-style: none;
+}
 .ft-heading4{
     color: #FFFFFF;
     font-family: 'Times New Roman', Times, serif;
-    font-size:large;
+    font-size:x-large;
     padding-top: 50px;
     padding-left: 10px;
     margin-left:50px
@@ -68,11 +85,15 @@ footer{
 .footer-Help{
     color: #FFFFFF;
     font-family: 'Times New Roman', Times, serif;
-    font-size:small;
+    font-size:20px;
     padding-top: 30px;
     padding-left: 10px;
     margin-left:10px
 }
+  .footer-Help{
+  margin-bottom: 10px;
+ list-style: none;
+  }
 /* div for footer logo &buttons */
 .ft-Bttn{
     width: 100%;
@@ -84,13 +105,13 @@ footer{
 }
 .mono{
     margin-left:400px;     
-    width: 150px;
+    width:100px;
     height:26px;
     background-size:cover;
     line-height: 0;
     padding-bottom:60px;
-padding-top:15px;
-background-color: #0F1111;
+   padding-top:15px;
+    background-color:#bec0c2;
    
 }  
 

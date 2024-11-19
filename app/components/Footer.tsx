@@ -1,55 +1,73 @@
-// <!--main footer div -->
-// <footer class="footer">
-//     <div class="ft-heading1">Get To Know Us
-//     <!-- 1st footer div -->
-//     <ul class="footer-getTo">
-//          <a>Career</a><br><br>
-//          <a>Blog</a><br><br>
-//          <a>AboutAmazon</a><br><br>
-//          <a>InvesterRelation</a><br><br>
-//          <a>AmazonDevices</a><br><br>
-//          <a>AmazonScience</a><br><br>
-//         </ul>
-//     </div>
+import "../style/Footer.css";
+import Image from "next/image";
+import img from "../../public/assets/amazon-logo.png";
+  
+  export default function Footer(){
+    return(
 
-//     <!-- 2nd footer div -->
-//     <div class="ft-heading2">Make Money with us
-//         <ul class="footer-makeMoney">
-//              <a>Sell products on Amazon</a><br><br>
-//              <a>Sell on Amazon Buisness</a><br><br>
-//              <a>Sell apps on Amazon</a><br><br>
-//              <a>Become an Affiliate</a><br><br>
-//              <a>Advertise your Products</a><br><br>
-//              <a>Host an Amazon Hub</a><br><br>
-//              <a>Self-Publish with Us</a><br><br>
-//              </ul>
-//         </div>
-//         <!-- 3rd  footer div  -->
-//         <div class="ft-heading3">Amazon Payment Products
-//     <ul class="footer-Payment">
-//          <a>Amazon Buisness Card</a><br><br>
-//          <a>Shop with Points</a><br><br>
-//          <a>Reload Your Balance</a><br><br>
-//          <a>Amazon Currency Converter</a><br><br>
+    
+  
+
+    <div>
+{/* // <!--main footer div --> */}
+       
+      <div className="footer">
+    <div className="ft-heading1">Get To Know Us
+    {/* <!-- 1st footer div --> */}
+       <ul className="footer-getTo">
+        <li>Career</li>
+         <li>Blog</li>
+        <li>AboutAmazon</li>
+         <li>InvesterRelation</li>
+        <li>AmazonDevices</li>
+        <li>AmazonScience</li>
+           </ul>
+    </div>
+
+    {/* <!-- 2nd footer div --> */}
+    <div className="ft-heading2">Make Money with us
+            <ul className="footer-makeMoney">
+            <li>Sell products on Amazon</li>
+            <li>Sell on Amazon Buisness</li>
+            <li>Sell apps on Amazon</li>
+            <li>Become an Affiliate</li>
+            <li>Advertise your Products</li>
+            <li>Host an Amazon Hub</li>
+            <li>Self-Publish with Us</li>
+             </ul>
+        </div>
+        {/* <!-- 3rd  footer div  --> */}
+        <div className="ft-heading3">Amazon Payment Products
+    <ul className="footer-Payment">
+        <li>Amazon Buisness Card</li>
+        <li>Shop with Points</li>
+        <li>Reload Your Balance</li>
+        <li>Amazon Currency Converter</li>
          
-//         </ul>
-//     </div>
-//     <!-- 4th  footer div  -->
-//     <div class="ft-heading4">Amazon Payment Products
-//         <ul class="footer-Help">
-//             <a>Amazon and Covid 19</a><br><br>
-//             <a>Your Accounts</a><br><br>
-//             <a>Your Ordres</a><br></br>
-//             <a>Shipping Rates and Policies</a><br><br>
-//             <a>Manage your Contents And Device</a><br><br>
-//                 <a>Help</li><br><br>
-//         </ul>       
-//     </div>
-// </footer>
-// <!-- </div> -->
-// <div class="ft-Bttn">
-//     <div class="mono" style="background-image:url(../pngwing.com.png);"></div>
-//         <button id="one" >English</button>
-// <button id="two">$ USD-U.S. Dollars</button>
-// <button id="three">UnitedStates</button>
-// </div>
+        </ul>
+    </div>
+    {/* <!-- 4th  footer div  --> */}
+    <div className="ft-heading4">Amazon Payment Products
+        <ul className="footer-Help">
+           <li>Amazon and Covid 19</li>
+           <li>Your Accounts</li>
+           <li>Your Ordres</li>
+              <li>Shipping Rates and Policies</li>
+           <li>Manage your Contents And Device</li>
+               <li>Help</li>
+        </ul>       
+    </div>
+
+{/* <!-- </div> --> */}
+<div className="ft-Bttn">
+     <div className="mono">
+        <Image src={img} alt={"logo"} width={100} height={80} /> 
+    </div> 
+<button id="one" >English</button>
+<button id="two">$ USD-U.S. Dollars</button>
+<button id="three">UnitedStates</button>
+</div>
+</div>
+</div>
+)
+}

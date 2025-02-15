@@ -20,7 +20,7 @@ export default function Header(){
     </div>
     {/* <!-- second div inside main div for selscting country  --> */}
     <div className="nav-address border">
-        <p className="add-first">Deliver to</p>
+        <p className="add-first">Deliver toooooooo</p>
         <div className="add-icon">
                 <IoLocationOutline />
 
